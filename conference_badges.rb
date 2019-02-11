@@ -6,8 +6,7 @@ end
 
 def batch_badge_creator(attendees)
   attendees.each do |name|  
-    badges = badge_maker(name) 
-  return badges 
+  return badge_maker(name) 
 end
 end
 
