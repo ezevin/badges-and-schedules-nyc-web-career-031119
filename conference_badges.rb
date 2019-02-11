@@ -6,7 +6,7 @@ end
 
 def batch_badge_creator(attendees)
  
-  attendees.map
+  attendees.push
   badge_maker(attendees) 
 end
 
